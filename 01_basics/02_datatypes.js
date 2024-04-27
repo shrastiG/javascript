@@ -18,6 +18,7 @@ let ans //undefined
 /**NON-PRIMITIVE- done later*/
 //object
 
-console.log(typeof "sh");
-console.log(typeof age);
-console.log(typeof null);
+console.log(typeof "sh"); //string
+console.log(typeof age); //number
+console.log(typeof null); //OBJECT ****
+console.log(typeof undefined); //undefined
