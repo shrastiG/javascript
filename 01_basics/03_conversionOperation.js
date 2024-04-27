@@ -57,3 +57,27 @@ let num2 = true
  let stringNum2 = String(num2)
  console.log(typeof stringNum2); //string
  console.log(stringNum2); //true
+
+
+ /************** OPERATIONS ******************/
+console.log("1"+2); //12
+console.log(1+"2");  //12
+console.log("1"+4+4+"2"); //1442
+console.log("1"+2+1); //121, if string is first then next is considered as string
+console.log(1+2+"1"); //31 , if number is first then next is also considered as number
+
+
+console.log(true); //true
+console.log(+true); //1, converted to num as incremented
+console.log(+""); //0
+
+let n1,n2,n3
+n1 = n2 = n3 = 2+2
+
+let counter = 100;
+++counter; //prefix
+console.log(counter);
+counter++; //postfix
+console.log(counter);
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
