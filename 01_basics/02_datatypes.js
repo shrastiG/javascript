@@ -10,7 +10,12 @@ let age = 20 //number
 let isLoggedin = false //boolean
 let state = null //null
 let ans //undefined
+const id1 = Symbol('123'); //symbol
+const id2 = Symbol('123');
+console.log(id1==id2); //false
 
+let num = 2134567890n;  BIG INT
+console.log(typeof num);
 //null -> a standalone value, consisdered as empty
 //undefined -> no value is assigned
 //symbol -> for uniqueness
